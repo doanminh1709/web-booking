@@ -1,0 +1,35 @@
+.nav-bar_container {
+  background-color: rgb(0, 53, 128);
+  color: white;
+}
+.nav-bar_container .title-and-button {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
+}
+.nav-bar_container .title-and-button .title {
+  display: inline-block;
+  padding: 10px 0;
+}
+.nav-bar_container .title-and-button .box-button {
+  display: inline-block;
+  padding: 10px 0;
+}
+.nav-bar_container .title-and-button .box-button button {
+  padding: 8px 15px;
+  margin: 5px;
+  border: none;
+  background-color: white;
+  color: rgb(0, 53, 128);
+  font-size: 15px;
+  font-weight: 500;
+}
+.nav-bar_container .box-icon {
+  width: 60%;
+  margin: 0 auto;
+}
+.nav-bar_container .box-icon ul {
+  padding: 15px 0;
+  display: flex;
+}/*# sourceMappingURL=Navbar.css.map */

@@ -1,0 +1,31 @@
+.container-register {
+  width: 100%;
+  background-color: rgb(0, 53, 128);
+  color: white;
+  text-align: center;
+}
+.container-register h1 {
+  padding: 25px 10px 0px;
+}
+.container-register p {
+  padding: 15px;
+}
+.container-register form {
+  padding-bottom: 20px;
+}
+.container-register form input {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+  color: gray;
+  border: none;
+}
+.container-register form button {
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  border-color: navajowhite;
+  background-color: #0071C2;
+}/*# sourceMappingURL=Register.css.map */

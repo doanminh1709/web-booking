@@ -1,0 +1,13 @@
+.container-footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  color: rgb(0, 53, 128);
+  font-size: 15px;
+  padding: 15px 0;
+  width: 60%;
+}
+.container-footer li {
+  padding: 5px 0;
+  list-style-type: none;
+}/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,28 @@
+.container-city_box {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.container-city_box .city-box_item {
+  margin-top: 50px;
+  width: 32.5%;
+}
+.container-city_box .city-box_item img {
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.container-city_box .city-box_item h1,
+.container-city_box .city-box_item p {
+  padding-left: 15px;
+  position: relative;
+  top: -100px;
+  z-index: 1;
+  color: white;
+}
+.container-city_box .city-box_item p {
+  font-size: 25px;
+  font-weight: bold;
+}/*# sourceMappingURL=City.css.map */

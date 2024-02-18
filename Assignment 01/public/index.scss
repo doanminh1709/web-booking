@@ -1,0 +1,54 @@
+/*
+    Các tính năng của scss 
+    1.Tạo biến (Có thể tái sử dụng lại được những biến đã tạo)
+    2.Có thể di chuyển code của từng phần ra từng file riêng sau đó @import 
+       nó vào file cần thêm 
+    3.Viết mixin (Giống như 1 function , chúng ta có thể viết các đoạn code trong 
+      1 mixin và sử dụng đoạn code trong nhiều nơi bằng cú pháp @include) 
+    4.Viết code lồng nhau ( Ta có thể viết các đoạn code của các thằng con ở trong 
+      thằng cha)
+    5.Thừa kế (Nó hoạt động giống như thằng mixins) sử dụng từ khoá @extend %name
+
+*/
+
+@import url('./test/_header.scss');
+@import './test/variable';
+@import './test/mixins';
+
+
+%buttonStyle{
+    color: $main-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1{
+    @extend %buttonStyle;
+}
+
+.button2{
+    @extend %buttonStyle;
+}
+
+footer{
+    color: $main-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer button{
+    @include buttonStyle();   
+    background-color: greenyellow;
+}
+
+footer {
+    div{
+        @include buttonStyle();
+    }
+    p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}

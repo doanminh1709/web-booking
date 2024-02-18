@@ -1,0 +1,35 @@
+.container-detail_hotel {
+  width: 60%;
+  margin: 0 auto;
+}
+.container-detail_hotel .container-detail-box {
+  display: flex;
+  justify-content: space-around;
+}
+.container-detail_hotel .container-detail-box .container-detail-item_box {
+  padding: 15px 0;
+  width: 24%;
+}
+.container-detail_hotel .container-detail-box .container-detail-item_box strong {
+  display: block;
+}
+.container-detail_hotel .container-detail-box .container-detail-item_box img {
+  width: 100%;
+  height: 270px;
+  overflow: hidden;
+}
+.container-detail_hotel .container-detail-box .container-detail-item_box a {
+  text-decoration: underline;
+  color: blue;
+}
+.container-detail_hotel .container-detail-box .container-detail-item_box span {
+  display: inline-block;
+  background-color: blue;
+  padding: 4px;
+  color: white;
+  font-weight: 400;
+}
+.container-detail_hotel .container-detail-box .container-detail-item_box .item-type {
+  display: inline-block;
+  padding: 0 10px;
+}/*# sourceMappingURL=InfoHotel.css.map */

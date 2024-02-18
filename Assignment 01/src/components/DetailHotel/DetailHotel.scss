@@ -1,0 +1,104 @@
+.container-detail_hotel {
+    width: 60%;
+    margin: 0 auto;
+
+    .container-item-detail_hotel {
+
+        .box-item-detail_hotel {
+            h2 {
+                display: inline-block;
+            }
+
+            button {
+                background-color: rgb(0,53,128);
+                border: none;
+                color: white;
+                border-radius: 5px;
+                font-weight: 500;
+                padding: 10px;
+            }
+
+            margin: 20px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .tag-detail-hotel {
+            p {
+                color: rgb(0,53,128);
+            }
+
+            strong {
+                color: green;
+            }
+        }
+
+        .image-detail_hotel {
+            display: flex;
+            flex-wrap: wrap;
+
+            img {
+                width: 32%;
+                
+                
+                
+                margin: 0 8px 8/px 0;
+                height: fit-content;
+                overflow: hidden;
+            }
+        }
+
+        .title-detail-hotel {
+            display: flex;
+            margin: 10px 0;
+
+            .first-title-detail-hotel {
+                width: 66.5%;
+                padding-right: 10px;
+                h2{
+                    font-size: 25px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+            }
+            .second-title-detail-hotel{
+                display: flex;
+                flex-direction: column;
+                width: 26%;
+                padding: 15px;
+                background-color: #EBF3FF;
+                
+                .rate-detail_text{
+                    font-size: 20px;
+                    font-weight: 600;
+                    padding: 10px 0;                  
+                }
+                .location-detail_text{
+                    padding: 10px 0;
+                    font-size: 15px;
+                }
+                strong{
+                    font-size: 25px;
+                    display: inline-block;
+                    p{
+                        display: inline-block;
+                        font-size: 25px;
+                        font-weight: lighter;
+                    }
+                }
+                button {
+                    background-color: rgb(0,53,128);
+                    border: none;
+                    color: white;
+                    border-radius: 5px;
+                    font-weight: 500;
+                    padding: 10px;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+}

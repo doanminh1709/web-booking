@@ -1,0 +1,58 @@
+.container-search_popup{
+    margin: 20px 0;
+    width: 20%;
+    height: fit-content;
+    background-color: #FEBB02;
+    border-radius: 10px;
+    padding: 10px;
+    h1{
+        color: gray;
+    }
+    .popup-lable{
+        color: rgb(8, 4, 4);
+        font-weight: 500;
+        label{
+            display: block;
+            padding: 5px 0;
+        }
+        input{
+            border: none;
+            padding: 15px;
+        }
+        .input-destionation{
+            min-width: 86%;
+        }
+        .input-date{
+            min-width: 38.5%;
+        }
+    }
+    .popup-options{
+        p{
+            font-weight: bold;
+            padding: 10px 0;
+        }
+
+        div{
+            font-size: 14px;
+            color: gray;
+            padding: 10px;
+            label{
+                display: inline-block;
+                min-width: 78%;
+            }
+            input{
+                display: inline-block;
+                padding: 5px;
+                max-width:50px;
+            }
+        }
+    }
+    button{
+        width: 99%;
+        padding: 15px 0;
+        font-size: 18px;
+        color: white;
+        background-color: rgb(0,113,194);
+        border: none;
+    }
+}

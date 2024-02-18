@@ -1,0 +1,101 @@
+.container-search_list {
+    width: 60%;
+    flex-wrap: nowrap;
+    padding-bottom: 20px;
+
+    .container-box_item {
+        margin: 15px;
+        padding: 10px;
+        border: 2px solid rgb(207, 205, 205);
+        border-radius: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .box-img_item {
+            width: 36%;
+
+            img {
+                width: 100%;
+                height: 300px;
+                overflow:hidden;
+            }
+        }
+    }
+
+    .describe-info-item {
+        h1 {
+            color: rgb(15, 165, 192);
+            margin: 10px 0;
+
+        }
+
+        span {
+            margin: 10px 0;
+            display: inline-block;
+            padding: 6px;
+            border-radius: 15px;
+            color: white;
+            background-color: rgb(18, 170, 18);
+        }
+
+        strong {
+            display: block;
+            font-size: 19px;
+            margin-bottom: 10px;
+
+        }
+
+        p {
+            display: block;
+            font-weight: 500;
+        }
+        .cancellation-info{
+            margin: 5px;
+            color: rgb(18, 170, 18);;
+        }
+    }
+    .box-price-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .rate-info_item{
+            margin-top: 10px;
+            strong{
+              padding-right: 55px;  
+              color: rgb(17, 2, 2);
+            }
+            span{
+                    // display: inline-block;
+                    background-color: blue;
+                    padding: 5px;
+                    color: white;
+                    font-weight: bold;
+            }
+            font-size: 20px;
+            display: inline-block;
+        }
+        .info-cost{
+            text-align: right;
+            strong{
+                font-size: 35px;
+                font-weight: bolder;
+            }
+            p{
+                display: block;
+                padding: 10px 0;
+                color: rgb(117, 109, 109);
+            }
+            button{
+                padding: 10px 25px;
+                background-color:rgb(15, 165, 192); 
+                color: white;
+                border: none;
+                border-radius: 5px;
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+    }
+}
