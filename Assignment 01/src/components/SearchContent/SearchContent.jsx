@@ -1,6 +1,6 @@
 import React from "react";
-import SearchListItem from "../../components/SearchList/SearchListItem";
-import SearchPopup from "../../components/SearchNavbar/SearchPopup";
+import SearchListItem from "../SearchList/SearchListItem";
+import SearchPopup from "../SearchNavbar/SearchPopup";
 import './SearchContent.css';
 
 const SearchContent = () =>{
